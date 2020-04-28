@@ -109,7 +109,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64 \
     libstdc++.vendor \
-    GcamGo \
     vendor.qti.hardware.camera.device@1.0.vendor \
     libgui_vendor
 
@@ -480,3 +479,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wlan/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     $(LOCAL_PATH)/wlan/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     $(LOCAL_PATH)/wlan/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
+
+# Prebuilt Packages
+PRODUCT_PACKAGES += \
+    GCamGo \
+    QPGallery
