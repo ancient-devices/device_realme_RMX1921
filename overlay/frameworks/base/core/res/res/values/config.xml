@@ -452,9 +452,6 @@
 	<item>com.google.android.googlequicksearchbox/com.google.android.hotword.service.HotwordService</item>
     </string-array>
 
-    <!-- Whether to show a custom view for FOD -->
-    <bool name="config_needCustomFODView">true</bool>
-
     <!-- Smart charging sysfs node and value for suspend/resume charging -->
     <string name="config_smartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
     <string name="config_smartChargingSuspendValue" translatable="false">1</string>
@@ -482,7 +479,7 @@
         <item>com.android.touch.gestures.KeyHandler</item>
     </string-array>
 
-    <!-- Whether device has vooc charging support -->
-    <bool name="config_hasVoocCharger">true</bool>
+    <!-- Shows the required view for in-display fingerprint -->
+    <bool name="config_supportsInDisplayFingerprint">true</bool>
 
 </resources>
