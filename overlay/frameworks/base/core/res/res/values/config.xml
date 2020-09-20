@@ -633,4 +633,7 @@
     <!-- Default fod pressed icon -->
     <integer name="config_pressed_fod_icon">7</integer>
 
+    <!-- Custom proximity sensor to be used for pocket detection and doze -->
+    <string name="config_customProximitySensor">"qti.sensor.proximity_fake"</string>
+
 </resources>
