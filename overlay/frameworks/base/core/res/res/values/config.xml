@@ -630,4 +630,7 @@
     <!-- Whether device has a notch -->
     <bool name="config_haveNotch">true</bool>
 
+    <!-- Default fod pressed icon -->
+    <integer name="config_pressed_fod_icon">7</integer>
+
 </resources>
