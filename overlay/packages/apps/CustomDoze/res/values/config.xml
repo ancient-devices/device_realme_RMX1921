@@ -16,7 +16,10 @@
 */
 -->
 <resources>
-    <!-- Defines the custom proximity sensor used by various OEMs like OnePlus-->
+    <!-- Device supports smart raise to wake or not -->
+    <bool name="has_amd_tilt_sensor">true</bool>
+
+    <!-- Defines the custom tilt sensor used by various OEMs like OnePlus-->
     <string name="config_custom_tilt">"qti.sensor.amd"</string>
     
     <!-- Defines the custom pocket sensor used by various OEMs like OnePlus-->
