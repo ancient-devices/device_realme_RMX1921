@@ -3,9 +3,3 @@ allow hal_lineage_fod_default sysfs_oppo_display:file { read open getattr write 
 allow hal_lineage_fod_default default_prop:file { getattr };
 allow hal_lineage_fod_default proc_touchpanel:dir search;
 allow hal_lineage_fod_default proc_touchpanel:file { getattr open read };
-
-type hal_lineage_fod_default, domain;
-hal_server_domain(hal_lineage_fod_default, hal_lineage_fod)
-
-type hal_lineage_fod_default_exec, exec_type, vendor_file_type, file_type;
-init_daemon_domain(hal_lineage_fod_default)

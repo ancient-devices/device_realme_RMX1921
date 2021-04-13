@@ -1,2 +1,0 @@
-type hal_lineage_fod_hwservice, hwservice_manager_type;
-type hal_lineage_touch_hwservice, hwservice_manager_type;

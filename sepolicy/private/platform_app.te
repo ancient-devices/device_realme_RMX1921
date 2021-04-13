@@ -1,4 +1,2 @@
-hal_client_domain(platform_app, hal_lineage_fod)
-
 # OTA App
 allow platform_app system_data_file:dir rw_dir_perms;
