@@ -377,6 +377,10 @@
     <!-- Height of the status bar in portrait -->
     <dimen name="status_bar_height_portrait">32.0dip</dimen>
 
+    <dimen name="status_bar_icon_size">22.0dip</dimen>
+    <dimen name="status_bar_system_icon_intrinsic_size">17.0dip</dimen>
+    <dimen name="status_bar_system_icon_size">15.0dip</dimen>
+
     <!-- Whether device supports double tap to wake -->
     <bool name="config_supportDoubleTapWake">true</bool>
 
