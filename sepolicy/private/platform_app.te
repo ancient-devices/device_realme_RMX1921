@@ -1,2 +1,0 @@
-# OTA App
-allow platform_app system_data_file:dir rw_dir_perms;
