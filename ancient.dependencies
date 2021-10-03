@@ -1,0 +1,14 @@
+[
+  {
+    "remote": "github",
+    "repository": "kaderbava/android_kernel_realme_RMX1921",
+    "target_path": "kernel/realme/RMX1921",
+    "branch": "11"
+  },
+  {
+    "remote": "gitlab",
+    "repository" : "kaderbava/vendor_realme_RMX1921",
+    "target_path": "vendor/realme/RMX1921",
+    "branch": "11"
+  }
+]
