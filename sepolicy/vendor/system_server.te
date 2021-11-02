@@ -9,6 +9,7 @@ allow system_server media_rw_data_file:dir { write remove_name };
 allow system_server media_rw_data_file:file { unlink };
 allow system_server sysfs_rtc:file { open read };
 dontaudit system_server default_android_hwservice:hwservice_manager find;
+dontaudit system_server sysfs:file read;
 allow system_server app_zygote:process { getpgid };
 allow system_server proc_devinfo:dir { search };
 allow system_server proc_touchpanel:dir { search };

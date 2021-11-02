@@ -47,6 +47,7 @@ oppo.device.imeicache             u:object_r:oppo_debug_prop:s0
 sys.oppo.network.rffeature             u:object_r:oppo_debug_prop:s0
 oppo.fingerprint.factory             u:object_r:oppo_debug_prop:s0
 persist.console.silent.config             u:object_r:oppo_debug_prop:s0
+oppo.eng.factory.no			u:object_r:oppo_debug_prop:s0
 
 # Oppo wlan prop
 persist.oppo.wlan.            u:object_r:oppo_wlan_prop:s0

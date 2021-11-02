@@ -1,3 +1,5 @@
 binder_call(gmscore_app, hal_memtrack_default);
 dontaudit gmscore_app hal_memtrack_hwservice:hwservice_manager find;
 dontaudit gmscore_app hal_memtrack_hwservice:binder call;
+dontaudit gmscore_app bt_firmware_file:filesystem getattr;
+dontaudit gmscore_app firmware_file:filesystem getattr;
