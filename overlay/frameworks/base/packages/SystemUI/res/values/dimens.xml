@@ -17,7 +17,10 @@
 --> 
 <resources>
 
-    <dimen name="system_icons_keyguard_padding_end">4dp</dimen>
+    <!-- the padding on the start and the end of the statusbar -->
+    <dimen name="status_bar_extra_padding">13dp</dimen>
+
+    <dimen name="rounded_corner_content_padding">50.0px</dimen>
 
     <!-- Bottom margin size when fingerprint in display is active -->
     <dimen name="keyguard_indication_margin_bottom_fingerprint_in_display">25dp</dimen>
