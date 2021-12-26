@@ -6,6 +6,7 @@
 
 # Inherit some common AncientOS stuff
 TARGET_BOOT_ANIMATION_RES := 1080
+EXTRA_UDFPS_ANIMATIONS := true
 $(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 
 # Inherit from RMX1921 device
