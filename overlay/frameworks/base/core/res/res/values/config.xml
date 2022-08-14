@@ -1075,9 +1075,6 @@
 	<item>com.google.android.googlequicksearchbox/com.google.android.hotword.service.HotwordService</item>
     </string-array>
 
-    <!-- Whether to show a custom view for FOD -->
-    <bool name="config_needCustomFODView">true</bool>
-
     <!-- Whether to intercept inputs on screen off -->
     <bool name="config_enableKeyHandler">true</bool>
 
@@ -1149,9 +1146,6 @@
          running in WAL mode.
          Choices are: FULL, NORMAL, OFF. -->
     <string name="db_wal_sync_mode">OFF</string>
-
-    <!-- Whether Device support LiveDisplay or not -->
-    <bool name="config_liveDisplayAvailable">true</bool>
 
     <!-- SystemInfo Sys Nodes -->
     <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone3/temp</string>
